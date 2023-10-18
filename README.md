@@ -27,10 +27,10 @@ code config
 
 [Se abre VScode y pegas lo que esta debajo↓]
 
-Host github.com
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/github
+Host github.com  
+  AddKeysToAgent yes  
+  UseKeychain yes  
+  IdentityFile ~/.ssh/github  
 
 > [Command + S para guardar cambios] 
 
