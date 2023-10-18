@@ -4,9 +4,15 @@
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
-> Generating public/private ALGORITHM key pair. 
+> Generating public/private ALGORITHM key pair.
+
+
 > Enter a file in which to save the key (/Users/YOU/.ssh/id_ALGORITHM): github [Press enter] 
+
+
 > Enter passphrase (empty for no passphrase): Escribe contraseña [Press enter] 
+
+
 > Enter same passphrase again: Escribe contraseña otra vez [Press enter] 
 
 # Paso 2
