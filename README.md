@@ -2,7 +2,13 @@
 
 # Paso 1
 
-ssh-keygen -t ed25519 -C "your_email@example.com"
+Entrar a la carpeta .ssh
+
+cd ~/.ssh
+
+Generar las llaves con el correo con el que se creo la cuenta de Github (de preferencia el correo institucional)
+
+ssh-keygen -t ed25519 -C "your_email@itsoeh.edu.mx"
 
 > Generating public/private ALGORITHM key pair.  
 > Enter a file in which to save the key (/Users/YOU/.ssh/id_ALGORITHM): github [Press enter]  
@@ -22,9 +28,9 @@ code config
 [Se abre VScode y pegas lo que esta debajo↓]
 
 Host github.com  
-'''AddKeysToAgent yes  
-  UseKeychain yes  
-  IdentityFile ~/.ssh/github  
+&nbsp;&nbsp;&nbsp;&nbsp;AddKeysToAgent yes  
+&nbsp;&nbsp;&nbsp;&nbsp;UseKeychain yes  
+&nbsp;&nbsp;&nbsp;&nbsp;IdentityFile ~/.ssh/github  
 
 > [Command + S para guardar cambios] 
 
